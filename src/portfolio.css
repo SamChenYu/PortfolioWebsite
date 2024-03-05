@@ -1,13 +1,33 @@
 
 
+h1, h2,  ul, .gridcontainer, footer {
+    padding: 0 10%;
+}
+
+
+header h1 {
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 2%;
+    
+}
+
+
 ul {
     display: inline-block;
     align-items: center;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    padding: 0 10%;
     margin-bottom: 2%;
 
+}
+
+ul li {
+    padding: 1%;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 
@@ -21,37 +41,67 @@ ul {
 }
 
 
+
+
+.gridcontainer {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+
+
+h1 {
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: left;
+    font-size: 3em;
+    color:darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+
 .me_img {
-    display: flex;
-    justify-content: center;
-    margin-left: 60%;
+    grid-column: span 2;
+    grid-row: span 3;
+    margin-left: 35%;
     margin-right: auto;
-    width: 30%;
-    height: 30%;
+    width: 80%;
 
     border-radius: 50px;
 }
 
 .me_img:hover {
-    transform: scale(1.1); /* Apply scale and translation on hover */
+    transform: scale(1.1);
 }
 
-
-h1 {
+.subtext {
+    margin-top: 20%;
+    grid-column: span 2;
+    grid-row: span 1;
     text-align: left;
-    margin-top: -30%;
-    margin-left: 10%;
-    font-size: 3em;
-    color:darkslategrey;
     font-family: 'Roboto', sans-serif;
+    
 }
 
-p {
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 5%;
-    font-family: 'Roboto', sans-serif;
+.subtext p {
+    margin-top: 15px;
+    font-style: italic;
 }
+
+
+
+
+
+
+
+
 
 footer {
     margin-top: 20%;
