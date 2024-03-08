@@ -31,9 +31,14 @@ nav a {
 }
 
 
+.linkSelected {
+    color: lightslategrey;
+}
+
 .link {
     color: darkslategrey;
 }
+
 
 .link:hover {
     font-weight: bold;
