@@ -1,0 +1,43 @@
+
+
+
+
+.gridcontainer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+
+    width: 70%; /* Set the desired width of your container */
+    margin: 0 auto; /* Set margin to auto to horizontally center the container */
+    padding: 0 20%; /* Set desired padding */
+
+}
+
+
+h1 {
+    grid-column: span 3;
+    text-align: left;
+    font-size: 3em;
+    color:darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+h2 {
+    grid-column: span 2;
+}
+
+
+.icon {
+    width: 30%;
+    grid-column: span 1;
+    grid-row: span 1;
+    margin-bottom: 8%;
+}
+
+
+
+

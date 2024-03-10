@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="Experience.css">
+    <link rel="stylesheet" href="blog.css">
     <link rel="icon" type="image/png" href="assets/bulb.png">
     <title>Sam Chen Yu</title>
 </head>
@@ -18,10 +18,10 @@
             <li><a class="link" href="AboutMe.html">About me</a></li>
             <li><a class="link" href="Skills.html">Skills & Awards</a></li>
             <li><a class="link" href="Education.html">Education</a></li>
-            <li><a class="linkSelected" href="Experience.html">Experience</a></li>
+            <li><a class="link" href="Experience.html">Experience</a></li>
             <li><a class="link" href="Portfolio.html">Portfolio</a></li>
             <li><a class="link" href="Contact.html">Contact</a></li>
-            <li><a class="link" href="Blog.html">Blog</a></li>
+            <li><a class="linkSelected" href="Blog.html">Blog</a></li>
             <li>
                 <a href="https://www.github.com/SamChenYu">
                     <img src="assets/github.png" class="footer_img">
@@ -39,24 +39,35 @@
 
     <div class="gridcontainer">
 
-        <h1>Experience</h1>
-        <h2>
-            <img src="assets/saf.png" alt="SAF" class="SAF">
-            Singapore Armed Forces (2021 - 2022)
-        </h2>
-        <h2>
-            3rd Sergeant
-        </h2>
-        
-        <img src="assets/experience.jpg" alt="Sam Chen Yu" class = "me_img">
-    
-        <p>
-            I Served as a Section Commander under HQ 7th Singapore Infantry Brigade, Singapore Guards.
-            Alongside training up competent soldiers in an elite unit, I supported various events such
-            as the 2022 National Day Parade and 2022 Army Open House.
-        </p>
+        <header>
+            <h1>Add Post</h1>
+        </header>
 
-        <hr>
+
+        <br>
+        <form method="GET" action="https://drusmannaeem.co.uk/process.php" class="subtext">
+            <fieldset>
+                <legend>
+                    Add Post
+                </legend>
+                <label for="title">Title</label> 
+                <br>
+                <input type="text" name="Title" required>
+                <br>
+                <label for="date">Date</label>
+                <br>
+                <input type="date" name="date" required>
+
+                <br>
+                <label for="post">Post</label>
+                <br>
+                <input type="text" name="post" required class="postbox">
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+
 
     </div>
 
