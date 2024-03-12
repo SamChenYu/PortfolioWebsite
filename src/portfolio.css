@@ -8,9 +8,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 
-    width: 70%; /* Set the desired width of your container */
-    margin: 0 auto; /* Set margin to auto to horizontally center the container */
-    padding: 0 20%; /* Set desired padding */
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 0 20%; 
 
 }
 

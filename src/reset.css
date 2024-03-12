@@ -9,10 +9,10 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p {
 }
 
  ul li {
-    display: inline; /* Display the list items inline */
+    display: inline; 
 	list-style: none;
-    list-style-type: none; /* Remove default list styling */
-    margin-right: 10px; /* Add some spacing between the list items */
+    list-style-type: none; 
+    margin-right: 10px; 
 }
 
 h1, h2, h3 {
